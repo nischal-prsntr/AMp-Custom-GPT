@@ -1,0 +1,50 @@
+.chatList {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #ddd;
+        opacity: 0.1;
+        border-radius: 5px;
+        margin: 20px 0px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    } 
+
+    a {
+        padding: 10px;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: #306C8E;
+        }
+    }
+    
+    .bottom {
+        margin-top: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:10px
+
+    }
+
+    .settings {
+        i {
+            margin-right: 10px;
+        }
+    }
+}
