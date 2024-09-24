@@ -1,5 +1,5 @@
 .rootLayout {
-    padding: 16px 64px;
+    background-color: #1f2427;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 10px 20px;
 
         .logo {
             display: flex;
