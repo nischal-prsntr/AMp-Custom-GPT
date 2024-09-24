@@ -3,15 +3,17 @@
 }
 
 .newForm {
-    width: 50%;
+    width: 70%;
     position: absolute;
+    display: flex;
     bottom: 0;
     border: 1px solid #555;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 0px 20px;
+    background-color: #1f2427;
 
     input {
         flex: 1;
@@ -19,6 +21,7 @@
         border: none;
         outline: none;
         background-color: transparent;
+        color: #ececec;
 
     }
 
