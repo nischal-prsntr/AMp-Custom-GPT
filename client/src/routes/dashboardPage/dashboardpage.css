@@ -3,6 +3,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
+    .greetings {
+        width: 80%; 
+        text-align: left; 
+        z-index: 1;
+        position: absolute;
+        margin-top: 40px;
+        h1 {
+            font-size: 68px; 
+            font-weight: bold;
+            color:#3180c8 ;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h3 {
+            font-size: 48px;
+            font-weight: normal;
+            color: #666;
+            margin-top: 10px;
+        }
+    }
 
     .texts {
         flex: 1;
@@ -22,17 +45,26 @@
 
             .option {
                 flex: 1;
-                font-weight: 400px;
-                font-size: 16px;
+                height: 150px;
+                font-weight: 500;
+                font-size: 17px;
                 padding: 40px 20px;
-                border: 1px solid #3180c8;
-                border-radius: 5px;
+                background-color: #1f2427;
+                border: 3px solid #3180c8;
+                border-radius: 10px;
                 text-align: center;
+                box-shadow: 5px 5px 5px #1f2427;
+            
 
+                display: flex;
+                align-items: center;  /* Center vertically */
+                justify-content: center;  /* Center horizontally */
+            
                 &:hover {
                     background-color: #3180c8;
                 }
             }
+            
         }
     }
 
@@ -61,8 +93,7 @@
                 outline: none;
                 color: #ececec;
                 font-size: 16px;
-
-                }
+            }
 
             button {
                 background-color: #424242;
@@ -82,5 +113,4 @@
             }
         }
     }
-
 }

@@ -48,9 +48,13 @@ const ChatList = () => {
       </div>
       <hr />
       <div className="bottom">
+      <div className="help">
+          <i className="fa-solid fa-circle-info"></i>
+          <span>About</span>
+        </div>
         <div className="settings">
           <i className="fas fa-cog"></i>
-          <span> Settings</span>
+          <span>Settings</span>
         </div>
       </div>
     </div>

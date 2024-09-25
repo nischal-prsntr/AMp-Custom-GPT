@@ -70,11 +70,11 @@
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
-        gap:10px
+        gap: 10px
 
     }
 
-    .settings {
+    .settings,.help {
         padding: 10px;
         border-radius: 5px;
         &:hover{
